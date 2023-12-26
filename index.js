@@ -88,7 +88,7 @@ var finances = [
 	['Feb-2017', 671099],
 ];
 
-//End financial dataset
+// End financial dataset
 
 // Initialize variables to store calculated values
 var totalMonths = finances.length;
@@ -96,3 +96,17 @@ var netTotal = 0;
 var totalChange = 0;
 var greatestIncrease = {date: null, amount: 0};
 var greatestDecrease = {date: null, amount: 0};
+
+// Loop through the financial data to perform calculations
+for (var i = 1; i < finances.length; i++) {
+	// Extract values for the current and previous months
+	var currentMonthValue = finances[i][1];
+	var previousMonthValue = finances[i - 1][1];
+
+	// Calculate the change for the current month
+	var change = currentMonthValue - previousMonthValue;
+
+	// Accumulate values for total and net total
+	netTotal += currentMonthValue;
+	totalChange += change;
+}
