@@ -109,4 +109,16 @@ for (var i = 1; i < finances.length; i++) {
 	// Accumulate values for total and net total
 	netTotal += currentMonthValue;
 	totalChange += change;
+
+	// Update the greatest increase if the current change is greater
+	if (change > greatestIncrease.amount) {
+		greatestIncrease.amount = change;
+		greatestIncrease.date = finances[1][0];
+	}
+
+	// Update the greatest decrease if the current change is smaller
+	if (change < greatestDecrease.amount) {
+		greatestDecrease.amount = change;
+		greatestDecrease.date = finances[1][0];
+	}
 }
