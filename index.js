@@ -122,3 +122,6 @@ for (var i = 1; i < finances.length; i++) {
 		greatestDecrease.date = finances[1][0];
 	}
 }
+
+// calculate the average change
+var averageChange = totalChange / (totalMonths - 1);
