@@ -125,3 +125,28 @@ for (var i = 1; i < finances.length; i++) {
 
 // calculate the average change
 var averageChange = totalChange / (totalMonths - 1);
+
+// Output of the financial analysis
+console.log(
+	'Financial Analysis\n' +
+		'------------------\n' +
+		'Total Months: ' +
+		totalMonths +
+		'\n' +
+		'Total: $' +
+		netTotal +
+		'\n' +
+		'Average Change: $' +
+		averageChange.toFixed(2) +
+		'\n' +
+		'Greatest Increase in Profits/Losses: ' +
+		greatestIncrease.date +
+		' ($' +
+		greatestIncrease.amount +
+		')\n' +
+		'Greatest Decrease in Profits/Losses: ' +
+		greatestDecrease.date +
+		' ($' +
+		greatestDecrease.amount +
+		')'
+);
