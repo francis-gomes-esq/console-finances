@@ -20,7 +20,7 @@ N/A
 
 ## Usage
 
-You can view the website via this link: [ Note! add URL after deploying]
+You can view the website via this link: https://francis-gomes-esq.github.io/console-finances/
 
 -   ![alt text](assets/images/index-html-file.png)
 -   ![alt text](assets/images/solution-00.png)
