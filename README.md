@@ -11,7 +11,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Credits](#credits)
+-   [List of third-party assets](#list-of-third-party-assets)
 -   [License](#license)
+-   [Badges](#badges)
 
 ## Installation
 
@@ -19,13 +21,25 @@ N/A
 
 ## Usage
 
-You can view the website via this link:
+You can view the website via this link: [ Note! add URL after deploying]
 
-![alt text](assets/images/screenshot.png)
+-   ![alt text](assets/images/index-html-file.png)
+-   ![alt text](assets/images/solution-00.png)
+-   ![alt text](assets/images/solution-001.png)
+-   ![alt text](assets/images/solution-01.png)
+-   ![alt text](assets/images/solution-02.png)
+-   ![alt text](assets/images/solution-03.png)
+-   ![alt text](assets/images/solution-04.png)
 
 ## Credits
 
-I benefited from the discussion between a student and TA during a breakout session. Kudos to Rhen. He answered my questions repeatedly on Slack.
+-   Benefited from the discussion between a student and TA during a breakout session.
+-   Kudos to Rhen. He answered my questions repeatedly on Slack.
+
+## List of third-party assets.
+
+-   https://www.w3schools.com/js/
+-   https://stackoverflow.com/questions/2970314/a-beginners-guide-to-learning-javascript
 
 ## License
 
