@@ -44,9 +44,3 @@ You can view the website via this link: [ Note! add URL after deploying]
 ## License
 
 Please refer to the repo.
-
----
-
-## Badges
-
-[def]: https://img.shields.io/github/languages/top/nielsenjared/badmath
