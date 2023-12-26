@@ -13,7 +13,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 -   [Credits](#credits)
 -   [List of third-party assets](#list-of-third-party-assets)
 -   [License](#license)
--   [Badges](#badges)
 
 ## Installation
 
@@ -44,9 +43,3 @@ You can view the website via this link: [ Note! add URL after deploying]
 ## License
 
 Please refer to the repo.
-
----
-
-## Badges
-
-[def]: https://img.shields.io/github/languages/top/nielsenjared/badmath
